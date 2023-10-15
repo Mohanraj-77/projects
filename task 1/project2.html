@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project2.css">
+    
+  
+
+</head>
+<body><h1>CONVERSITIONS</h1>
+    <div class="con">
+        <div class="input1">
+        <h3>Celsius to fahrenheit</h3>
+        <div class="in">
+        <input type="text" placeholder="enter a value" id ="celsius"> 
+       </div>
+        <br>
+        <div>
+        <button id="sub" onclick="convert1()" >Convert</button> 
+    </div>
+       <br>
+        <div id="result">
+
+        </div>
+    </div>
+      <div class="input2">
+        <h3>Centimeter to inches</h3>
+        <div>
+            <input type="text" placeholder="enter value " id="cm">
+        </div>
+        <br>
+        <div>
+            <button onclick="convert2()" id="sub"> Convert </button>
+        </div>
+        <br>
+        <div id="output">
+
+        </div>
+    </div>
+        <div class="input3">
+        <h3>Meter to kilometer</h3>
+        <div >
+        <input type="text" placeholder="enter value" id ="m"> 
+       </div>
+        <br>
+        <div>
+        <button id="sub" onclick="convert3()" >Convert</button> 
+    </div>
+       <br>
+        <div id="result1">
+
+        </div>
+        </div>
+        <div class="input4">
+          <h3>Gram to kilogram</h3> 
+          <div>
+            <input type="text" placeholder="enter a value" id="gram"> 
+          </div>
+          <br>
+          <div>
+            <button id="sub" onclick="convert4()">Convert</button>
+          </div>
+          <br>
+          <div id="output1">
+
+          </div>
+
+        </div>
+        
+     </div>
+     
+     
+    
+<script> 
+
+function convert1() {
+let c= Number(document.getElementById ("celsius").value)
+let f = c *(1.8)+(32)
+let result = document.getElementById("result")
+result.innerHTML=(f + "  Fahrenheit")
+}
+</script>
+   
+<script>
+        
+function convert2() {     
+let cm= Number(document.getElementById ("cm").value)
+let inch = cm*0.39370
+let output = document.getElementById("output")
+output.innerHTML=(inch + "  inches")
+} 
+</script>
+
+<script>
+function convert3() {  
+let m= Number(document.getElementById ("m").value)
+let km = m/1000
+let result1 = document.getElementById("result1")
+result1.innerHTML=( km + "  km")
+}
+</script>
+<script>
+function convert4() {
+    let gram = Number(document.getElementById("gram").value)
+    let kg= gram/1000
+    let output1= document.getElementById("output1")
+    output1.innerHTML=(kg + " kg")
+}
+</script>
+
+    
+</body>
+</html>
