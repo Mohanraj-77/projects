@@ -1,0 +1,61 @@
+h3
+{
+    color: rgb(10, 10, 10);
+     /* color:rgb(7, 98, 121);  */
+    text-align: center;
+}
+
+body    
+{
+     padding:100px; 
+    
+    /* margin: 100px; */
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNDU2LTAxNGQteC5qcGc.jpg);
+    /* background-image:url("images/ha.jpg"); */
+    /* align-content: center; */
+    background-repeat:no-repeat ;
+    background-size:cover;
+    position: relative;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     display:flexbox; 
+}
+
+ 
+div
+{
+    
+    color:azure;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:gray;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    padding: 5px;
+  
+}
+#reg
+{
+    color: rgb(3, 110, 35);
+}
+button:hover
+{
+    background-color: rgb(245, 245, 35);
+}
+button:active
+{
+    background-color:aqua;
+
+}
+.con
+{
+    align-content: center;
+    text-align: center;
+} 
+
+button
+{
+   background-color:whitesmoke;
+   border: none;
+}
