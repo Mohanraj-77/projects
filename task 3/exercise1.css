@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color:cornflowerblue;
+    position: fixed;
+} 
+
+#rate
+{
+    height: 30px;
+    width: 15rem;
+}
+
+h1
+{
+    color:rgb(7, 97, 7);
+}
+.container
+{
+    background-color: yellow;
+    margin: 20px 400px 30px 400px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.btn
+{
+    border-radius: 4px;
+    width: 5rem;
+    height:rem;
+    background-color: black;
+    border: none;
+    color: white;
+    
+}
+.out
+
+{
+    background-color: black;
+    color: aquamarine;
+}
